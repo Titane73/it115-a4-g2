@@ -2,6 +2,9 @@ $webBgColor:#fff;
 $sectionLineColor :#000;
 $itemHoverColor:#000;
 $moreInfoColor:rgba(0, 0, 0, .5);
+$moreBtnColor:#0A0A0A;
+$moreBtnTextColor:#fff;
+$btnCloseColor:#db5a6b;
 
 section#touristAttractions {
     background-color: $webBgColor;
@@ -42,6 +45,9 @@ section#touristAttractions {
     }
 
     div#ta-taList {
+        //for test
+        //display: none;
+
         &::after {
             content: '';
             height: 0px;
@@ -98,10 +104,10 @@ section#touristAttractions {
                 justify-content: center;
 
                 button {
-                    border: 1px solid #0A0A0A;
+                    border: 1px solid $moreBtnColor;
                     border-radius: 3px;
-                    background-color: #0A0A0A;
-                    color: #fff;
+                    background-color: $moreBtnColor;
+                    color: $moreBtnTextColor;
                     font-weight: bolder;
                     cursor: pointer;
                     padding: 10px 20px;
@@ -121,7 +127,6 @@ section#touristAttractions {
                         }
                     }
 
-
                     &:focus {
                         outline: none;
                     }
@@ -133,6 +138,135 @@ section#touristAttractions {
                     }
                 }
             }
+        }
+    }
+
+    div#ta-detail {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        position: relative;
+        // &::after {
+        //     content: ' ';
+        //     height: 0px;
+        //     width: 0px;
+        //     display: block;
+        //     clear: both;
+        // }
+
+        // >div {
+        //     float: left;
+        // }
+        box-shadow: 0px 0px 18px black;
+        border-radius: 3px;
+
+        div#ta-gallery {
+            flex: 1;
+            //@warn: 12%;
+
+            img {
+                width: 100%;
+                display: block;
+                cursor: pointer;
+                padding: 5px;
+
+                &:hover {
+                    box-shadow: 1px 1px 18px black;
+                }
+            }
+
+        }
+
+        div#ta-showing {
+            flex: 3;
+            //width: 50%;
+            padding: 5px;
+
+            position: relative;
+
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+
+        div#ta-detailInformation {
+            flex: 2;
+            align-self: flex-start;
+            padding: 20px;
+
+            p.ta-detail-titles {
+                font-size: 20px;
+                font-weight: bolder;
+                padding: 5px 0px;
+            }
+
+            p#ta-detail-name {
+                text-decoration: underline;
+                font-size: 30px;
+            }
+
+            div#ta-detail-introuction {
+                padding: 5px;
+                text-indent: 30px;
+            }
+
+            ul.ta-detail-ul {
+                margin-left: 30px;
+
+                li {
+                    padding: 5px;
+
+                    a {
+                        color: #000;
+                    }
+                }
+            }
+        }
+
+        span#ta-detail-btnClose {
+            font-weight: bolder;
+            height: 60px;
+            width: 60px;
+            display: block;
+            border: 2px solid #000;
+            border-radius: 40px;
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            text-align: center;
+            line-height: 60px;
+            box-shadow: 0px 0px 18px black;
+            background-color: white;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $btnCloseColor;
+            }
+
+            // &::before {
+            //     height: 1px;
+            //     width: 30px;
+            //     background-color: red;
+            //     display: block;
+            //     content: "";
+            //     position: relative;
+            //     transform: rotate(45deg);
+            //     top: 20px;
+            //     left: 5px;
+            // }
+
+            // &::after {
+            //     height: 1px;
+            //     width: 30px;
+            //     background-color: red;
+            //     display: block;
+            //     content: "";
+            //     position: relative;
+            //     transform: rotate(-45deg);
+            //     top: 19px;
+            //     left: 5px;
+            // }
         }
     }
 }

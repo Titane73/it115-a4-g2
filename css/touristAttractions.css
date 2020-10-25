@@ -105,5 +105,80 @@ section#touristAttractions div#ta-taList div.ta-wrapper div.ta-moreInfo button:f
 section#touristAttractions div#ta-taList div.ta-wrapper div.ta-moreInfo button:active::after {
   display: none;
 }
+section#touristAttractions div#ta-detail {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  box-shadow: 0px 0px 18px black;
+  border-radius: 3px;
+}
+section#touristAttractions div#ta-detail div#ta-gallery {
+  flex: 1;
+}
+section#touristAttractions div#ta-detail div#ta-gallery img {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  padding: 5px;
+}
+section#touristAttractions div#ta-detail div#ta-gallery img:hover {
+  box-shadow: 1px 1px 18px black;
+}
+section#touristAttractions div#ta-detail div#ta-showing {
+  flex: 3;
+  padding: 5px;
+  position: relative;
+}
+section#touristAttractions div#ta-detail div#ta-showing img {
+  width: 100%;
+  display: block;
+}
+section#touristAttractions div#ta-detail div#ta-detailInformation {
+  flex: 2;
+  align-self: flex-start;
+  padding: 20px;
+}
+section#touristAttractions div#ta-detail div#ta-detailInformation p.ta-detail-titles {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 5px 0px;
+}
+section#touristAttractions div#ta-detail div#ta-detailInformation p#ta-detail-name {
+  text-decoration: underline;
+  font-size: 30px;
+}
+section#touristAttractions div#ta-detail div#ta-detailInformation div#ta-detail-introuction {
+  padding: 5px;
+  text-indent: 30px;
+}
+section#touristAttractions div#ta-detail div#ta-detailInformation ul.ta-detail-ul {
+  margin-left: 30px;
+}
+section#touristAttractions div#ta-detail div#ta-detailInformation ul.ta-detail-ul li {
+  padding: 5px;
+}
+section#touristAttractions div#ta-detail div#ta-detailInformation ul.ta-detail-ul li a {
+  color: #000;
+}
+section#touristAttractions div#ta-detail span#ta-detail-btnClose {
+  font-weight: bolder;
+  height: 60px;
+  width: 60px;
+  display: block;
+  border: 2px solid #000;
+  border-radius: 40px;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  text-align: center;
+  line-height: 60px;
+  box-shadow: 0px 0px 18px black;
+  background-color: white;
+  cursor: pointer;
+}
+section#touristAttractions div#ta-detail span#ta-detail-btnClose:hover {
+  background-color: #db5a6b;
+}
 
 /*# sourceMappingURL=touristAttractions.css.map */
