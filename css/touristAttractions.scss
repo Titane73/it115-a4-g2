@@ -45,8 +45,11 @@ section#touristAttractions {
     }
 
     div#ta-taList {
+
         //for test
         //display: none;
+
+        &.ta-taList-hide {}
 
         &::after {
             content: '';
@@ -146,6 +149,9 @@ section#touristAttractions {
         align-items: center;
         flex-direction: row;
         position: relative;
+
+        &.ta-detail-show {}
+
         // &::after {
         //     content: ' ';
         //     height: 0px;
