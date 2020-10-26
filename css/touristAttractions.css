@@ -1,4 +1,6 @@
 section#touristAttractions {
+  padding: 30px 0px;
+  margin: 0px;
   background-color: #fff;
   width: 80%;
   margin: 0px auto;
@@ -30,6 +32,14 @@ section#touristAttractions div#ta-sectionTitle span {
   height: 30px;
   line-height: 30px;
   vertical-align: middle;
+}
+section#touristAttractions div#ta-taList {
+  transition: all 0.8s;
+  max-height: 600px;
+  overflow: hidden;
+}
+section#touristAttractions div#ta-taList.ta-taList-hide {
+  max-height: 0px;
 }
 section#touristAttractions div#ta-taList::after {
   content: "";
@@ -110,8 +120,14 @@ section#touristAttractions div#ta-detail {
   align-items: center;
   flex-direction: row;
   position: relative;
+  max-height: 0px;
+  transition: max-height 0.8s;
+  overflow: hidden;
   box-shadow: 0px 0px 18px black;
   border-radius: 3px;
+}
+section#touristAttractions div#ta-detail.ta-detail-show {
+  max-height: 1250px;
 }
 section#touristAttractions div#ta-detail div#ta-gallery {
   flex: 1;
@@ -166,19 +182,21 @@ section#touristAttractions div#ta-detail span#ta-detail-btnClose {
   height: 60px;
   width: 60px;
   display: block;
-  border: 2px solid #000;
   border-radius: 40px;
   position: absolute;
   top: -20px;
   right: -20px;
   text-align: center;
   line-height: 60px;
-  box-shadow: 0px 0px 18px black;
   background-color: white;
   cursor: pointer;
 }
 section#touristAttractions div#ta-detail span#ta-detail-btnClose:hover {
   background-color: #db5a6b;
+}
+section#touristAttractions div#ta-detail span#ta-detail-btnClose img {
+  height: 20px;
+  transform: translate(-5px, 10px);
 }
 
 /*# sourceMappingURL=touristAttractions.css.map */
