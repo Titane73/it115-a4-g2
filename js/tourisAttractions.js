@@ -152,4 +152,3 @@ class tourisAttractions {
         obj.innerHTML = lisObj;
     }
 }
-window.ta = new tourisAttractions();
