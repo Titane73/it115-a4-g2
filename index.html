@@ -1,130 +1,274 @@
 <!doctype html>
 <html lang="en">
-  
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <title>Destination Seattle</title>
-  
+
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
-  
+  <link rel="stylesheet" href="/css/touristAttractions.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="/js/tourisAttractions.js"></script>
   <script>
-  $( function() {
-    $( "#tabs" ).tabs();
-  } );
+    $(function () {
+      $("#tabs").tabs();
+      window.ta = new tourisAttractions();
+    });
   </script>
-  
+
 </head>
-  
+
 <body>
- 
-<div id="tabs">
-  
-  <ul>
-    <li><a href="#welcome">Welcome</a></li>
-    <li><a href="#covid">Covid Guidelines</a></li>
-    <li><a href="#social">Social & Night Life</a></li>
-    <li><a href="#attractions">Area Attractions</a></li>
-    <li><a href="#links">Links & References</a></li>
-  </ul>
-      
-      
-      <div id="welcome">
 
-        <h2>Welcome Content</h2>
+  <div id="tabs">
 
-      </div>
-            
-      <div id="covid">
+    <ul>
+      <li><a href="#welcome">Welcome</a></li>
+      <li><a href="#covid">Covid Guidelines</a></li>
+      <li><a href="#social">Social & Night Life</a></li>
+      <li><a href="#attractions">Area Attractions</a></li>
+      <li><a href="#links">Links & References</a></li>
+    </ul>
 
-        <h2>Covid Content</h2>
+
+    <div id="welcome">
+
+      <h2>Welcome Content</h2>
+
+    </div>
+
+    <div id="covid">
+
+      <h2>Covid Content</h2>
+
+      <!-- Paste Content Here -->
+
+    </div>
+
+    <div id="social">
+
+      <h2>Social & Night Life Content</h2>
+
+      <h3>SEATTLE, the city with the best fans</h3>
+
+      <h4>Seattle Seahawks</h4>
+      <p>Football at CenturyLink Field set a World Record for loudest crowd roar during a 2013 Seattle Seahawks game.
+        The Seahawks are a professional American football team based in Seattle, Washington that compete in the National
+        FootBall Conference West division. Seahawks fans have been referred to as the “12th Man”, “12th Fan” or “12s”.
+        In 2014, the Seahawks won their franchise’s first Super Bowl Championship, defeating the Denver Broncos 43-8.
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Seattle_Seahawks"> Seattle Seahawsk</a>
+
+      <h4>Seattle Sounders FC</h4>
+      <p>Soccer supporters chant, sing, and cheer throughout Sounders FC games. Sounders FC, an American professional
+        soccer club based in Seattle, WA that competes as a member of the Western Conference of Major League Soccer. The
+        Sounders play their home league matches at CenturyLink Field. In 2019, the Sounders won against Toronto FC in
+        the MLS Cup Final and brought home a second MLS Cup title.</p>
+      <a href="https://en.wikipedia.org/wiki/Seattle_Sounders_FC"> Seattle Sounders FC</a>
+
+      <h4>Seattle Mariners </h4>
+      <p>Baseball fans love the classic ballpark atmosphere during Seattle Mariners games. Seattle Mariners, an American
+        professional baseball team based in Seattle, Washington that competes in Major League Baseball as a member club
+        of the American League West division. The Mariners play their home league matches at T-Mobile Park.</p>
+      <a href="https://en.wikipedia.org/wiki/Seattle_Mariners"> Seattle Mariners</a>
+      <h4>Seattle Storm</h4>
+      <p>Seattle Storm is a women’s professional basketball team based in Seattle, WA. The Storm are a must-watch team
+        at Alaska Airlines Arena at the University of Washington, the Storm’s temporary home while the Seattle Center
+        arena is under renovation. This year, the Storm closed out the top-ranked Las Vegas Aces in three games en route
+        to their fourth championship.</p>
+      <a href="https://visitseattle.org/things-to-do/spectator-sports/#mariners"> Seattle Storm</a>
+
+      <h4>Seafair</h4>
+      <p>Seafair events typically draw hundreds of thousands of visitors over the summer months, with over 3000
+        volunteers. Seafair is committed to uniting and celebrating all of Seattle’s diversity by offering fun and
+        activities.</p>
+      <p>The Blue Angels flight demonstration and community with the mission is to showcase the teamwork and
+        professionalism of the United States Navy and Marine Corps, while inspiring a culture of excellence and service
+        to the country.</p>
+      <a href="https://www.seafair.org"> Seattle's Seafair Event</a>
+      <h4>Seattle Art Museum (SAM)</h4>
+      <p>Seattle Art Museum (SAM) has been the center for world class visual arts in the Pacific Northwest since 1933.
+        Visit SAM to see a museum carved into the city, as Seattle’s landscape and personality as the coffee, rain,
+        mountains, Pike Place Market, and the Space Needle.</p>
+      <p>In the center of downtown Seattle, galleries invite you to wander through our collections, temporary
+        installations, and special exhibitions from around the world. The collections include Asian, African, Ancient
+        American,...</p>
+
+      <h3>The best Nightlife in Seattle</h3>
+      <h4>Live Music</h4>
+      <p>Live music has always been a big part of the Seattle nightlife. There’s always a live show going on every
+        night, so many that you probably can’t even choose. Seattle has legendary venues such as The Tractor, The
+        Crocodile, Neumos, and many more...</p>
+      <h4>Tourist</h4>
+      <p>Seattle is known for their iconic observation deck, the Space Needle. At an open-air viewing located at 520
+        feet, you can experience the stunning views of the city day or night. A next top spot to visit would be the
+        Great Wheel, which opens until midnight and a great experience that can’t be missed...</p>
+      <h4>The Laser Dome</h4>
+      <p>Seattle Center's Laser Dome has created a visual and audio experience that is a must-try for everyone. Amazing
+        light imagery paired with your favorite music is something everyone enjoys.</p>
+      <a href="https://www.thrillist.com/events/seattle/seattle-nightlife"> Seattle Center's Laser Dome</a>
+      <h4>Nightclubs and Dance Clubs</h4>
+      <p>The “Emerald City” also has a few dance clubs with live DJs and/or pumping EDM to keep the club moving. Another
+        club like Trinity Nightclub is a hot spot for dancing the night away. If you want to spend an evening out club
+        hopping, your best bet is the Capitol Hill neighborhood.</p>
+      <a href="https://www.tripsavvy.com/the-best-nightlife-in-seattle-2964758"> Seattle's Nightlife Club</a>
+
+
+      <aside>
+
+        <h3>Aside Content</h3>
 
         <!-- Paste Content Here -->
 
-      </div>
-      
-      <div id="social">
+      </aside>
 
-        <h2>Social & Night Life Content</h2>
-        
-        <h3>SEATTLE, the city with the best fans</h3>
-          
-        <h4>Seattle Seahawks</h4>
-        <p>Football at CenturyLink Field set a World Record for loudest crowd roar during a 2013 Seattle Seahawks game. The Seahawks are a professional American football team based in Seattle, Washington that compete in the National FootBall Conference West division. Seahawks fans have been referred to as the “12th Man”, “12th Fan” or “12s”. In 2014, the Seahawks won their franchise’s first Super Bowl Championship, defeating the Denver Broncos 43-8.</p>
-        <a href="https://en.wikipedia.org/wiki/Seattle_Seahawks"> Seattle Seahawsk</a>
-          
-        <h4>Seattle Sounders FC</h4>
-        <p>Soccer supporters chant, sing, and cheer throughout Sounders FC games. Sounders FC, an American professional soccer club based in Seattle, WA that competes as a member of the Western Conference of Major League Soccer. The Sounders play their home league matches at CenturyLink Field. In 2019, the Sounders won against Toronto FC in the MLS Cup Final and brought home a second MLS Cup title.</p>
-        <a href="https://en.wikipedia.org/wiki/Seattle_Sounders_FC"> Seattle Sounders FC</a> 
-          
-        <h4>Seattle Mariners </h4>
-        <p>Baseball fans love the classic ballpark atmosphere during Seattle Mariners games. Seattle Mariners, an American professional baseball team based in Seattle, Washington that competes in Major League Baseball as a member club of the American League West division. The Mariners play their home league matches at T-Mobile Park.</p>
-        <a href="https://en.wikipedia.org/wiki/Seattle_Mariners"> Seattle Mariners</a>
-        <h4>Seattle Storm</h4>
-        <p>Seattle Storm is a women’s professional basketball team based in Seattle, WA. The Storm are a must-watch team at Alaska Airlines Arena at the University of Washington, the Storm’s temporary home while the Seattle Center arena is under renovation. This year, the Storm closed out the top-ranked Las Vegas Aces in three games en route to their fourth championship.</p>
-        <a href="https://visitseattle.org/things-to-do/spectator-sports/#mariners"> Seattle Storm</a>
-          
-        <h4>Seafair</h4>
-        <p>Seafair events typically draw hundreds of thousands of visitors over the summer months, with over 3000 volunteers. Seafair is committed to uniting and celebrating all of Seattle’s diversity by offering fun and activities.</p>
-        <p>The Blue Angels flight demonstration and community with the mission is to showcase the teamwork and professionalism of the United States Navy and Marine Corps, while inspiring a culture of excellence and service to the country.</p>
-        <a href="https://www.seafair.org"> Seattle's Seafair Event</a>
-        <h4>Seattle Art Museum (SAM)</h4>
-        <p>Seattle Art Museum (SAM) has been the center for world class visual arts in the Pacific Northwest since 1933. Visit SAM to see a museum carved into the city, as Seattle’s landscape and personality as the coffee, rain, mountains, Pike Place Market, and the Space Needle.</p>
-        <p>In the center of downtown Seattle, galleries invite you to wander through our collections, temporary installations, and special exhibitions from around the world. The collections include Asian, African, Ancient American,...</p>
+    </div>
 
-        <h3>The best Nightlife in Seattle</h3>
-        <h4>Live Music</h4>
-        <p>Live music has always been a big part of the Seattle nightlife. There’s always a live show going on every night, so many that you probably can’t even choose. Seattle has legendary venues such as The Tractor, The Crocodile, Neumos, and many more...</p>
-        <h4>Tourist</h4>
-        <p>Seattle is known for their iconic observation deck, the Space Needle. At an open-air viewing located at 520 feet, you can experience the stunning views of the city day or night. A next top spot to visit would be the Great Wheel, which opens until midnight and a great experience that can’t be missed...</p>
-        <h4>The Laser Dome</h4>
-        <p>Seattle Center's Laser Dome has created a visual and audio experience that is a must-try for everyone. Amazing light imagery paired with your favorite music is something everyone enjoys.</p>
-        <a href="https://www.thrillist.com/events/seattle/seattle-nightlife"> Seattle Center's Laser Dome</a>
-        <h4>Nightclubs and Dance Clubs</h4>
-        <p>The “Emerald City” also has a few dance clubs with live DJs and/or pumping EDM to keep the club moving. Another club like Trinity Nightclub is a hot spot for dancing the night away. If you want to spend an evening out club hopping, your best bet is the Capitol Hill neighborhood.</p>
-        <a href="https://www.tripsavvy.com/the-best-nightlife-in-seattle-2964758"> Seattle's Nightlife Club</a>
+    <div id="attractions">
+
+      <section id="touristAttractions">
+        <div id="ta-sectionTitle">
+          <span>TOURIST ATTRACTIONS</span>
+        </div>
+        <div id="ta-taList">
+          <div class="ta-wrapper">
+            <div class="ta-infomation">
+              <img src="/img/SpaceNeedle-1.jpg">
+              <p class="ta-spotTitle">Space Needle</p>
+              <div class="ta-description">
+                The Space Needle is one of the most recognizable landmarks in the world and is a treasured Seattle icon.
+              </div>
+              <p class="ta-spotTitle">Address</p>
+              <div class="ta-description">
+                400 Broad St, Seattle, WA 98109
+              </div>
+            </div>
+            <div class="ta-moreInfo">
+              <button spot="SpaceNeedle" class="ta-btnMore">MORE</button>
+            </div>
+          </div>
+          <div class="ta-wrapper">
+            <div class="ta-infomation">
+              <img src="/img/MountRainier-1.jpg">
+              <p class="ta-spotTitle">Mount Rainier National Park</p>
+              <div class="ta-description">
+                Mount Rainier , also known as Tahoma or Tacoma, is a large active stratovolcano in the Cascade Range of
+                the
+                Pacific Northwest, located in Mount Rainier National Park about 59 miles (95 km) south-southeast of
+                Seattle
+              </div>
+              <p class="ta-spotTitle">Address</p>
+              <div class="ta-description">
+                Mount Rainier National Park
+              </div>
+            </div>
+            <div class="ta-moreInfo">
+              <button spot="MountRainier" class="ta-btnMore">MORE</button>
+            </div>
+          </div>
+          <div class="ta-wrapper">
+            <div class="ta-infomation">
+              <img src="/img/SeattleGreatWheel-1.jpg">
+              <p class="ta-spotTitle">Seattle Great Wheel</p>
+              <div class="ta-description">
+                The Seattle Great Wheel is a giant Ferris wheel at Pier 57 on Elliott Bay in Seattle, Washington. At an
+                overall height of 175 feet (53.3 m), it was the tallest Ferris wheel on the West Coast of the United
+                States
+                when it opened in June 2012
+              </div>
+              <p class="ta-spotTitle">Address</p>
+              <div class="ta-description">
+                1301 Alaskan Way, Seattle, WA 98101
+              </div>
+            </div>
+            <div class="ta-moreInfo">
+              <button spot="SeattleGreatWheel" class="ta-btnMore">MORE</button>
+            </div>
+          </div>
+          <div class="ta-wrapper">
+            <div class="ta-infomation">
+              <img src="/img/glass-1.jpg">
+              <p class="ta-spotTitle">Chihuly Garden and Glass</p>
+              <div class="ta-description">
+                Chihuly Garden and Glass is an exhibit in the Seattle Center showcasing the studio glass of Dale
+                Chihuly. It
+                opened in May 2012 at the former site of the Fun Forest.
+              </div>
+              <p class="ta-spotTitle">Address</p>
+              <div class="ta-description">
+                305 Harrison St, Seattle, WA 98109
+              </div>
+            </div>
+            <div class="ta-moreInfo">
+              <button spot="glass" class="ta-btnMore">MORE</button>
+            </div>
+          </div>
+        </div>
+        <div id="ta-detail">
+          <div id="ta-gallery">
+            <img src="/img/SpaceNeedle-1.jpg">
+            <img src="/img/SpaceNeedle-2.jpg">
+            <img src="/img/SpaceNeedle-3.jpg">
+            <img src="/img/SpaceNeedle-4.jpg">
+            <img src="/img/SpaceNeedle-5.jpg">
+          </div>
+          <div id="ta-showing">
+            <img id="ta-pic-master" src="/img/SpaceNeedle-1.jpg">
+          </div>
+          <div id="ta-detailInformation">
+            <p id="ta-detail-name" class="ta-detail-titles">Space Needle</p>
+            <p class="ta-detail-titles">Address:</p>
+            <p id="ta-detail-address"> 400 Broad St, Seattle, WA 98109</p>
+            <p class="ta-detail-titles">Hours:</p>
+            <ul class="ta-detail-ul" id="ta-detail-hours">
+              <li> Monday - Wednesday: 11:00AM - 6:00PM</li>
+              <li> Thursday - Sunday: 11:00AM - 9:00PM</li>
+            </ul>
+            <p class="ta-detail-titles">Price:</p>
+            <ul class="ta-detail-ul" id="ta-detail-price">
+              <li> Regular: $32.50 to $37.50</li>
+              <li>Senior (ages 65+): $27.50 to $32.50</li>
+              <li>Youth (ages 5-12): $24.50 to $28.50</li>
+            </ul>
+            <p class="ta-detail-titles">Introduction:</p>
+            <div id="ta-detail-Introduction">
+              The Space Needle is an observation tower in Seattle, Washington, United States. Considered to be an icon
+              of
+              the city and the Pacific Northwest, it has been designated a Seattle landmark. Located in the Lower Queen
+              Anne
+              neighborhood, it was built in the Seattle Center for the 1962 World's Fair, which drew over 2.3 million
+              visitors. Nearly 20,000 people a day used its elevators during the event.
+            </div>
+            <p class="ta-detail-titles">Resources:</p>
+            <ul class="ta-detail-ul" id="ta-detail-resources">
+              <li> <a href="https://en.wikipedia.org/wiki/Space_Needle" target="_blank"> Space Needle On Wikipedia </a>
+              </li>
+              <li> <a href="https://www.spaceneedle.com/" target="_blank"> Space Needle Official Website </a>
+              </li>
+            </ul>
+          </div>
+          <span id="ta-detail-btnClose">
+            <img src="/img/btnClose.svg">
+          </span>
+        </div>
+      </section>
+
+    </div>
+
+    <div id="links">
+
+      <h2>Links & References</h2>
+
+    </div>
 
 
-        <aside>
+  </div>
 
-          <h3>Aside Content</h3>
-          
-          <!-- Paste Content Here -->
-          
-        </aside>
 
-      </div>
-      
-      <div id="attractions">
-
-        <h2>Attractions Content</h2>
-
-        <!-- Paste Content Here -->
-
-        <aside>
-
-          <h3>Aside Content</h3>
-
-          <!-- Paste Content Here -->
-          
-          
-        </aside>
-
-      </div>
-  
-      <div id="links">
-
-        <h2>Links & References</h2>
-
-      </div>
-    
-      
-</div>
- 
- 
 </body>
+
 </html>
