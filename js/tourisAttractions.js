@@ -117,11 +117,11 @@ class tourisAttractions {
 
         var index = 1;
         for (let ele of this.gallery) {
-            ele.src = `/img/${spot}-${index}.jpg`;
+            ele.src = `img/${spot}-${index}.jpg`;
             index++;
         };
 
-        this.picMaster.src = `/img/${spot}-1.jpg`;
+        this.picMaster.src = `img/${spot}-1.jpg`;
         this.detailName.innerText = Info["Name"];
         this.detailIntroduction.innerText = Info["Introduction"];
         this.detailAddress.innerText = Info["Address"];
