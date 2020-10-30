@@ -14,17 +14,22 @@
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script type="text/javascript" src="js/tourisAttractions.js"></script>
   <script>
-    $(function () {
-      $("#tabs").tabs();
-      window.ta = new tourisAttractions();
-    });
+	  $( function() {
+		$( "#tabs_main" ).tabs();
+		} );
+    
+    $( function() {
+		$( "#tabs" ).tabs();
+		window.ta = new tourisAttractions();
+	} );
+
   </script>
 
 </head>
-
+  
 <body>
-
-  <div id="tabs">
+ 
+<div id="tabs_main">
 
     <ul>
       <li><a href="#welcome">Welcome</a></li>
