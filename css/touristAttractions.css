@@ -38,6 +38,11 @@ section#touristAttractions div#ta-taList {
   max-height: 600px;
   overflow: hidden;
 }
+
+section#touristAttractions div#ta-taListNoOverflow {
+  transition: all 0.8s;
+  max-height: 600px;
+}
 section#touristAttractions div#ta-taList.ta-taList-hide {
   max-height: 0px;
 }
