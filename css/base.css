@@ -34,7 +34,7 @@ body {
   display: grid;
   min-width: 80%;
   grid-template-areas:
-  'poem header header header header quote1'
+  'header header header header header quote1'
   'poem  quote2 quote2 quote2 quote2  quote1'
   'poem quote3 quote3 quote3 quote3 quote3';
   grid-gap: 10px;
@@ -51,27 +51,21 @@ body {
 }
 
 .poem-wrapper {
-  font-family: cursive;
+  font-family: 'Courgette', cursive;
   font-size: .75em;
-  padding-top: 40px;
-  padding: 30px;
+  padding-top: 60px;
 }
 
-
-
-
-
+figcaption {
+  font-size: .5em;
+}
 
 /* ********** Covid ********* */
 
 
-.meta-iframe {
-  width: 100vw;
-  height: 100vh;
-}
 .iframe-container {
   overflow: hidden;
-  /* padding-top: 100%; */
+  padding-bottom: 35%;
   position: relative;
 }
 
@@ -86,8 +80,28 @@ iframe-container iframe {
 }
 
 
+/* ********** Area Attractions ********* */
 
+.attract-container {
+  width: 100%;
+  padding: 5px;
 
+}
 
+#attractions1 {
+
+  width: 45%;
+  padding: 5px;
+  float: left;
+  }
+
+  #attractions2 {
+    width: 45%;
+    padding: 5px;
+    overflow: auto;
+
+  }
+
+ 
 
 
