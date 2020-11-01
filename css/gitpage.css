@@ -20,12 +20,7 @@
 
 /* ********** Welcome ********* */
 
-.item1 { grid-area: title; }
-.item2 { grid-area: poem; }
-.item3 { grid-area: quote1; }
-.item4 { grid-area: quote2; }
-.item5 { grid-area: quote3; }
-.item6 { grid-area: image; }
+
 
 .grid-container {
   display: grid;
@@ -37,6 +32,13 @@
   background-color: #2196F3;
   padding: 10px;
 }
+
+.item1 { grid-area: title; }
+.item2 { grid-area: poem; }
+.item3 { grid-area: quote1; }
+.item4 { grid-area: quote2; }
+.item5 { grid-area: quote3; }
+.item6 { grid-area: image; }
 
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
