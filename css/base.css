@@ -34,8 +34,8 @@ body {
   display: grid;
   min-width: 80%;
   grid-template-areas:
-  'poem quote2 quote2 quote2 quote2 quote1'
-  'poem header header header header quote1'
+  'poem header header header headerquote1'
+  'poem  quote2 quote2 quote2 quote2  quote1'
   'poem quote3 quote3 quote3 quote3 quote3';
   grid-gap: 10px;
   background-color: rgb(0, 121, 94);
