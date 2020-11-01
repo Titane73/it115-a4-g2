@@ -2,7 +2,6 @@ section#touristAttractions {
   padding: 30px 0px;
   margin: 0px;
   background-color: #fff;
-  width: 80%;
   margin: 0px auto;
 }
 section#touristAttractions * {
@@ -38,11 +37,6 @@ section#touristAttractions div#ta-taList {
   max-height: 600px;
   overflow: hidden;
 }
-
-section#touristAttractions div#ta-taListNoOverflow {
-  transition: all 0.8s;
-  max-height: 600px;
-}
 section#touristAttractions div#ta-taList.ta-taList-hide {
   max-height: 0px;
 }
@@ -72,6 +66,8 @@ section#touristAttractions div#ta-taList div.ta-wrapper div.ta-infomation {
 }
 section#touristAttractions div#ta-taList div.ta-wrapper div.ta-infomation img {
   width: 100%;
+  height: 12vw;
+  object-fit: fill;
 }
 section#touristAttractions div#ta-taList div.ta-wrapper div.ta-infomation p.ta-spotTitle {
   padding: 5px 0px;
@@ -80,6 +76,10 @@ section#touristAttractions div#ta-taList div.ta-wrapper div.ta-infomation p.ta-s
 }
 section#touristAttractions div#ta-taList div.ta-wrapper div.ta-infomation div.ta-description {
   padding: 5px;
+}
+section#touristAttractions div#ta-taList div.ta-wrapper div.ta-infomation div.ta-description.ta-spot-description {
+  height: 160px;
+  overflow-y: hidden;
 }
 section#touristAttractions div#ta-taList div.ta-wrapper div.ta-moreInfo {
   transition: bottom 0.5s;
@@ -169,7 +169,7 @@ section#touristAttractions div#ta-detail div#ta-detailInformation p#ta-detail-na
   text-decoration: underline;
   font-size: 30px;
 }
-section#touristAttractions div#ta-detail div#ta-detailInformation div#ta-detail-introuction {
+section#touristAttractions div#ta-detail div#ta-detailInformation div#ta-detail-Introduction {
   padding: 5px;
   text-indent: 30px;
 }
