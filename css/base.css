@@ -127,6 +127,20 @@ body {
 
 /* ********** Area Attractions ********* */
 
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 48%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 #attractions {
 
@@ -136,20 +150,21 @@ body {
 
 .attract-container {
   width: 100%;
+  margin: 0 auto;
   text-align: justify;
 
 
 }
 
 #attractions1 {
-  width: 45%;
-  padding: 1em;
+  width: 48%;
+  padding-right: 0.25em;
   float: left;
 }
 
 #attractions2 {
-  width: 45%;
-  padding: 1em;
+  width: 48%;
+  padding-left: .25em;
   overflow: auto;
 
 }
