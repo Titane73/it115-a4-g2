@@ -8,9 +8,7 @@
   <title>Destination Seattle</title>
 
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Courgette&family=Quintessential&family=Inconsolata:wght@800&family=Permanent+Marker&display=swap"
-    rel="stylesheet">
+
   <link rel="stylesheet" href="css/touristAttractions.css">
   <link rel="stylesheet" href="css/social.css">
   <link rel="stylesheet" href="css/base.css">
@@ -38,9 +36,8 @@
       <li><a href="#welcome">Welcome</a></li>
       <li><a href="#covid">Covid Guidelines</a></li>
       <li><a href="#food">Food & Beverage</a></li>
-      <li><a href="#social">Social & Night Life</a></li>
-      <li><a href="#attractions">Area Attractions</a></li>
-      <!-- <li><a href="#links">Links & References</a></li> -->
+      <li><a href="#sports">Sports</a></li>
+      <li><a href="#attractions">Attractions</a></li>
     </ul>
 
 
@@ -48,14 +45,13 @@
 
       <div class="grid-container">
 
-        <div class="item1">
-          <div class="header">
-            <h2 style="font-family: 'Inconsolata', monospace; padding: 20px;">Welcome to the Emerald City</h2>
+          <div class="item1" style="background-color: #00795e;">
+            <div class="header">
+              <h2 style="color: #78E151">Welcome to the Emerald City</h2>
+            </div>
           </div>
-        </div>
-        <div class="item2">
+          <div class="item2" style="background-color: #072E64;">
 
-          <div class="poem-wrapper">
 
             <p class="line1">Full of hopes and full of fears,</p>
 
@@ -73,20 +69,30 @@
 
         <div class="item3">
 
-          <figure>
-            <img src="img/welcome/zhifei-zhou-skyline-small.jpg" alt="seattle skyline featuring the space needle">
-            <figcaption>Seattle skyline and the Space Needle</figcaption>
-          </figure>
 
+
+
+            <figure>
+              <img src="img/welcome/zhifei-zhou-skyline-small.jpg" alt="seattle skyline featuring the space needle" class="responsive">
+              <figcaption>The Space Needle and Seattle skyline</figcaption>
+            </figure>
+            
+            
+          
+          </div>  
+
+          <div class="item4"  style="background-color: #59DB29; padding-top: 4em;">
+            
+            <p>“Seattle is like a global gumbo, a melting pot with all kinds of people - </p>
+
+            <p>the rich, the poor, white people, some Chinese, Filipino, Jewish and black people </p> <p> - they're all here.” </p> <p>~ Quincy Jones</p>
 
 
         </div>
 
-        <div class="item4">
 
-          <p style="font-family: 'Quintessential', Times, serif;">“Seattle is like a global gumbo, a melting pot with
-            all kinds of people - the rich, the poor, white people, some Chinese, Filipino, Jewish and black people -
-            they're all here.” <br><br>~ Quincy Jones</p>
+
+
 
         </div>
 
@@ -113,9 +119,14 @@
 
 
       <div class="iframe-container">
-        <iframe loading="lazy" src="https://www.cdc.gov/coronavirus/2019-ncov/travelers/map-and-travel-notices.html"
-          style="width:100%; height:100%;"></iframe>
+
+        <iframe id="cdc-travel" src="https://www.cdc.gov/coronavirus/2019-ncov/travelers/map-and-travel-notices.html"></iframe>
       </div>
+
+      <div id="travel-seattle">
+        <p>Click link for the </p>
+          <a href="https://visitseattle.org/travel-advisory/faqs-on-covid-19/"><p>Seattle Travel Advisory</p></a>
+     </div>
 
     </div>
 
@@ -291,17 +302,16 @@
     </div>
 
 
-    <!-- End Food / Start Social -->
-    <!-- Contributor - Tin -->
+            <!-- End Food / Start Sports -->
+            <!-- Contributor - Tin -->
 
 
-    <div id="social">
 
-      <h2>Seattle's Social & Night Life</h2>
+    <div id="sports">
 
-      <h3>SEATTLE, the city with the best fans!</h3>
+      <h2>Seattle, the city with the best fans!</h2>
 
-      <h4>Seattle Seahawks</h4>
+         <h4>Seattle Seahawks</h4>
       <p>Football at CenturyLink Field set a World Record for loudest crowd roar during a 2013 Seattle Seahawks game.
         The Seahawks are a professional American football team based in Seattle, Washington that compete in the National
         FootBall Conference West division. Seahawks fans have been referred to as the “12th Man”, “12th Fan” or “12s”.
@@ -336,7 +346,7 @@
       <br>
       <a href="https://visitseattle.org/things-to-do/spectator-sports/#mariners"> Seattle Storm</a>
 
-      <h4>Seafair</h4>
+      <!-- <h4>Seafair</h4>
       <p>Seafair events typically draw hundreds of thousands of visitors over the summer months, with over 3000
         volunteers. Seafair is committed to uniting and celebrating all of Seattle’s diversity by offering fun and
         activities.</p>
@@ -373,21 +383,17 @@
         club like Trinity Nightclub is a hot spot for dancing the night away. If you want to spend an evening out club
         hopping, your best bet is the Capitol Hill neighborhood.</p>
       <a href="https://imgur.com/tlPKXOb"><img src="https://i.imgur.com/tlPKXOb.jpg" title="source: imgur.com" /></a>
-      <br>
-      <a href="https://www.tripsavvy.com/the-best-nightlife-in-seattle-2964758"> Seattle's Nightlife Club</a>
 
-    </div>
+	    <a href="https://www.tripsavvy.com/the-best-nightlife-in-seattle-2964758"> Seattle's Nightlife Club</a> -->
 
 
+	
+            <!-- End Sports / Start Attractions -->
+            <!-- Contributors - Yingheng "Hank" & Joey-->
 
-    <!-- End Food / Start Attractions -->
-    <!-- Contributors - Yingheng "Hank" & Joey-->
-
-
-
-    <div id="attractions">
-
-      <h2>Area Attractions</h2>
+      <div id="attractions">
+      
+      <h2>Something for Everyone</h2>
 
       <!------------ Joey Content-------------->
       <div class="attract-container">
@@ -408,7 +414,7 @@
             day in Capitol Hill and meet many of the great people that call this neighborhood home. </p>
         </div>
 
-      </div>
+      
       <section id="touristAttractions">
 
 
@@ -583,16 +589,11 @@
             wait, as this popular spot regularly has a long line waiting to see the start of it all. </p>
         </div>
       </div>
+    </div>
 
     </div>
 
 
-
-    <!-- <div id="links">
-
-      <h2>Links & References</h2>
-
-    </div> -->
 
 
   </div>
