@@ -51,7 +51,7 @@ body {
 }
 
 .poem-wrapper {
-  font-family: cursive;
+  font-family: 'Courgette', cursive;
   font-size: .75em;
   padding-top: 40px;
   padding: 30px;
@@ -65,13 +65,9 @@ body {
 /* ********** Covid ********* */
 
 
-.meta-iframe {
-  width: 100vw;
-  height: 100vh;
-}
 .iframe-container {
   overflow: hidden;
-  /* padding-top: 100%; */
+  padding-bottom: 35%;
   position: relative;
 }
 
