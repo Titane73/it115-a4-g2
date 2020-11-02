@@ -6,57 +6,7 @@
  
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
  
-/*
- * Basic CSS starts 
- */
 
-body{
-	font-family: 'Open Sans', Sans Serif;
-	font-weight: 400;
-	color: #545454;
-	-webkit-font-smoothing: antialiased;
-}
-
-h1,h2,h3,h4,h5,h6{
-	font-family: 'Open Sans', Sans Serif;
-	font-weight: 600;
-}
-
-p{
-	margin:0;
-	padding:0;
-	color: #787878;
-}
-
-a{
-	text-decoration: none;
-	color: #d65814;
-}
-
-a:hover{
-	text-decoration: none;
-	color: #a93c01;
-}
-
-a:hover,a:active,a:focus {
-	outline: 0;
-}
-
-hr{
-
-}
-
-:focus {
-	outline:none;
-}
-
-::-moz-focus-inner {
-	border:0;
-}
-
-/* 
- * Basic CSS ends 
- */
 
 header .navbar { 
 	margin: 0;
