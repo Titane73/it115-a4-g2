@@ -13,8 +13,8 @@ html {
 
 
 body {
-  margin: 1em auto 0 auto;
-  width: 90%;
+  margin: .25em auto 0 auto;
+  width: 95%;
   border-radius: 10px;
 
 }
@@ -101,10 +101,12 @@ body {
   color: #545454;
   line-height: 1.5;
   margin: 0 auto;
-  padding: 2em;
+  text-align: justify;
 }
 
 #sports img {
+  height: 350px;
+  width: 500px;
   animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
   background: transparent;
   border: 10px solid rgba(0, 0, 0, 0.12);
@@ -128,7 +130,7 @@ body {
 
 /* ********** Area Attractions ********* */
 
-/* Create two equal columns that floats next to each other */
+/* Two equal columns - floats*/
 .column {
   float: left;
   width: 48%;
