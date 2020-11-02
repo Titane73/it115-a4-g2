@@ -10,11 +10,10 @@
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
   <link rel="stylesheet" href="css/touristAttractions.css">
-  <link rel="stylesheet" href="css/social.css">
   <link rel="stylesheet" href="css/base.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script type="text/javascript" src="js/tourisAttractions.js"></script>
+  <script type="text/javascript" src="js/touristAttractions.js"></script>
   <script>
     $(function () {
       $("#tabs_main").tabs();
@@ -48,9 +47,11 @@
 
 <body>
 
-  <div id="tabs_main">
 
-    <ul>
+
+  <div id="tabs_main"> <!-- Wrapper for jQuery tabs layout -->
+
+    <ul> 
       <li><a href="#welcome">Welcome</a></li>
       <li><a href="#covid">Covid Guidelines</a></li>
       <li><a href="#food">Food & Beverage</a></li>
@@ -59,7 +60,12 @@
     </ul>
 
 
-    <div id="welcome">
+    <!-- Begin Welcome section -->
+    <!-- Contributor - Ti -->
+
+    <!-- Typically would not use inline styles, however this is the only way I found to put a background color in the cell of the grid -->
+
+    <div id="welcome"> 
 
       <div class="grid-container">
 
@@ -88,7 +94,7 @@
 
 
 
-        <div class="item3">
+        <div class="item3" style="background-color: #9BE5D4;">
 
 
 
@@ -116,7 +122,7 @@
 
         <div class="item5" style="background-color: #B0001F;">
 
-          <p style="color: #EB547D; font-weight: bold;">“I have a fond place in my
+          <p style="color: #F8A7BD; font-weight: bold;">“I have a fond place in my
             heart for Seattle.” – Magic Johnson</p>
 
         </div>
@@ -130,7 +136,7 @@
 
 
 
-    </div> <!-- welcome tab-->
+    </div> 
 
 
 
@@ -151,10 +157,9 @@
 
       <div id="travel-seattle">
         <p>Click link for the </p>
-        <a href="https://visitseattle.org/travel-advisory/faqs-on-covid-19/">
-          <p>Seattle Travel Advisory</p>
-        </a>
-      </div>
+        <a href="https://visitseattle.org/travel-advisory/faqs-on-covid-19/" target="blank"><p>Seattle Travel Advisory</p></a>
+     </div>
+
 
     </div>
 
@@ -234,10 +239,12 @@
               <h4><a href="https://seattle.eater.com/maps/seattle-best-taco-spots">15 Best Tacos in the Seattle
                   Area</a></h4>
             </div>
+
           </div>
         <!-- Tacos end -->
       </div>
       <!-- images display end -->
+
 
     </div>
 
@@ -282,9 +289,12 @@
         at Alaska Airlines Arena at the University of Washington, the Storm’s temporary home while the Seattle Center
         arena is under renovation. This year, the Storm closed out the top-ranked Las Vegas Aces in three games en route
         to their fourth championship.</p>
-      <a href="https://imgur.com/FIEIm3g"><img src="https://i.imgur.com/FIEIm3g.jpg" title="source: imgur.com" /></a>
+      <a href="https://imgur.com/RS9Zsil"><img src="https://i.imgur.com/RS9Zsil.jpg" title="source: imgur.com" /></a>
       <br>
       <a href="https://visitseattle.org/things-to-do/spectator-sports/#mariners"> Seattle Storm</a>
+
+
+      <!-- *******  Unused Content ******* -->
 
       <!-- <h4>Seafair</h4>
       <p>Seafair events typically draw hundreds of thousands of visitors over the summer months, with over 3000
@@ -363,6 +373,7 @@
         </div>
 
 
+        <!------------ Yinghe "Hank" Content-------------->
         <section id="touristAttractions">
 
 
@@ -397,9 +408,6 @@
               </div>
 
             </div>
-
-
-
 
 
 
@@ -541,10 +549,9 @@
             </span>
           </div>
 
-
-
-
         </section>
+
+
         <!------------ Joey Content-------------->
 
         <div class="row">
@@ -566,21 +573,12 @@
 
         </div>
 
-
-
-
       </div>
 
     </div>
 
 
-
-
-
-
-
-
-  </div> <!-- tabs -->
+  </div> <!--  end tabs -->
 
 </body>
 

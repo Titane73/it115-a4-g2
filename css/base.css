@@ -5,6 +5,7 @@
 html {
   background: rgb(6, 44, 96);
   font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
   
 
 }
@@ -94,18 +95,18 @@ body {
 }
 
 /* ********** Seattle Sports ********* */
-
 #sports {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
   color: #545454;
   line-height: 1.5;
   margin: 0 auto;
+  padding: 1em; 
   text-align: justify;
 }
 
 #sports img {
-  height: 350px;
   width: 500px;
+  height: 350px;
   animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
   background: transparent;
   border: 10px solid rgba(0, 0, 0, 0.12);
@@ -125,7 +126,6 @@ body {
       filter: grayscale(0%);
   }
 }
-
 
 /* ********** Area Attractions ********* */
 
