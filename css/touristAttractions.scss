@@ -48,7 +48,7 @@ section#touristAttractions {
 
     div#ta-taList {
         transition: all 0.8s;
-        max-height: 600px;
+        max-height: 800px;
         overflow: hidden;
 
         &.ta-taList-hide {
@@ -101,7 +101,11 @@ section#touristAttractions {
                     &.ta-spot-description {
                         height: 160px;
                         overflow-y: hidden;
-                        ;
+                    }
+
+                    span.outstanding {
+                        color: red;
+                        font-weight: bolder;
                     }
                 }
             }
