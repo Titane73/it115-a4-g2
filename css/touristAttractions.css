@@ -34,7 +34,7 @@ section#touristAttractions div#ta-sectionTitle span {
 }
 section#touristAttractions div#ta-taList {
   transition: all 0.8s;
-  max-height: 600px;
+  max-height: 800px;
   overflow: hidden;
 }
 section#touristAttractions div#ta-taList.ta-taList-hide {
@@ -80,6 +80,10 @@ section#touristAttractions div#ta-taList div.ta-wrapper div.ta-infomation div.ta
 section#touristAttractions div#ta-taList div.ta-wrapper div.ta-infomation div.ta-description.ta-spot-description {
   height: 160px;
   overflow-y: hidden;
+}
+section#touristAttractions div#ta-taList div.ta-wrapper div.ta-infomation div.ta-description span.outstanding {
+  color: red;
+  font-weight: bolder;
 }
 section#touristAttractions div#ta-taList div.ta-wrapper div.ta-moreInfo {
   transition: bottom 0.5s;
