@@ -25,6 +25,24 @@
     });
   </script>
 
+ <!-- Purva(food and beverages) style starts-->
+  <style>
+      .flex-container {
+        display: flex;/* setting the display property to flex. */
+        flex-wrap: wrap; /* this property allows the boxes to break into new lines */
+        justify-content: center;/* to align the images evenly along the main axis*/
+        text-align: center;/* to align the image titles in the center */
+      }
+      
+      /* for pretty look */
+      .flex-container > div {
+        background-color: #f1f1f1;
+        margin: 5px;
+        padding: 20px;
+      }     
+  </style>
+<!-- Purva(food and beverages) style ends-->
+
 </head>
 
 <body>
@@ -170,149 +188,63 @@
       </div>
       <!-- banner end -->
 
-      <!------------- table starts ----------------------------->
-      <table>
-        <!---------- row 1 ------------------------->
-        <tr>
+      <!-- images display start -->
+      <div class="flex-container">
 
-          <th>
-            <div class="col-md-4 col-sm-4">
-              <!-- event item -->
-              <div class="event-item">
-                <!-- image -->
-                <img class="img-responsive" src="img/foodAndDrinkEvent/1.jpg" alt="Events" />
-                <!-- heading -->
-                <h4><a href="https://seattle.eater.com/maps/best-filipino-food-in-seattle-area">Where to Find Fantastic
-                    Filipino Food Around the Seattle Area</a></h4>
-              </div>
+        <!-- filippino food starts -->
+        <div class="col-md-4 col-sm-4">
+          <!-- event item -->
+          <div class="event-item">
+            <!-- image -->
+            <img class="img-responsive" src="img/foodAndDrinkEvent/1.jpg" alt="Events" />
+            <!-- heading -->
+            <h4><a href="https://seattle.eater.com/maps/best-filipino-food-in-seattle-area">Fantastic
+                Filipino Food in Seattle</a></h4>
+          </div>
+        </div>
+        <!-- filippino food ends -->
+        
+        <!-- dive In bars starts -->
+        <div class="col-md-4 col-sm-4">
+            <!-- event item -->
+            <div class="event-item">
+              <!-- image -->
+              <img class="img-responsive" src="img/foodAndDrinkEvent/diveInBar.jpg" alt="Events" />
+              <!-- heading -->
+              <h4><a href="https://seattle.eater.com/maps/best-dive-bars-seattle">Seattle’s Best Dive Bars</a></h4>
+
             </div>
-          </th>
+        </div>
+        <!-- dive In bars  end -->
 
-          <th>
-            <div class="col-md-4 col-sm-4">
-              <!-- event item -->
-              <div class="event-item">
-                <!-- image -->
-                <img class="img-responsive" src="img/foodAndDrinkEvent/poutine.jpg" alt="Events" />
-                <!-- heading -->
-                <h4><a href="https://seattle.eater.com/maps/best-poutine-canadian-food-seattle">Where to Get Some
-                    Decadent Poutine in the Seattle Area</a></h4>
-              </div>
+        <!-- Special Ocassion starts -->
+        <div class="col-md-4 col-sm-4">
+            <!-- event item -->
+            <div class="event-item">
+              <!-- image -->
+              <img class="img-responsive" src="img/foodAndDrinkEvent/specialOccasion.jpg" alt="Events" />
+              <!-- heading -->
+              <h4><a href="https://seattle.eater.com/maps/seattle-restaurants-good-for-celebrations-birthdays-anniversaries">19 Restaurants for a Special Occasion</a></h4>
             </div>
-          </th>
+          </div>
+        <!-- Special Ocassion end -->
 
-
-          <th>
-            <div class="col-md-4 col-sm-4">
-              <!-- event item -->
-              <div class="event-item">
-                <!-- image -->
-                <img class="img-responsive" src="img/foodAndDrinkEvent/bestRestaurants.jpg" alt="Events" />
-                <!-- heading -->
-                <h4><a href="https://seattle.eater.com/maps/best-tacoma-restaurants">27 Terrific Tacoma Restaurants to
-                    Know Right Now</a></h4>
-              </div>
+        <!-- Tacos start -->
+        <div class="col-md-4 col-sm-4">
+            <!-- event item -->
+            <div class="event-item">
+              <!-- image -->
+              <img class="img-responsive" src="img/foodAndDrinkEvent/tacos.jpg" alt="Events" />
+              <!-- heading -->
+              <h4><a href="https://seattle.eater.com/maps/seattle-best-taco-spots">15 Best Tacos in the Seattle
+                  Area</a></h4>
             </div>
-          </th>
 
-        </tr>
-        <!------------- row 2 ----------------------->
-        <tr>
-          <th>
-            <div class="col-md-4 col-sm-4">
-              <!-- event item -->
-              <div class="event-item">
-                <!-- image -->
-                <img class="img-responsive" src="img/foodAndDrinkEvent/thaiFood.jpg" alt="Events" />
-                <!-- heading -->
-                <h4><a href="https://seattle.eater.com/maps/best-thai-restaurants-seattle">15 Top Thai Restaurants in
-                    the Seattle Area</a></h4>
+          </div>
+        <!-- Tacos end -->
+      </div>
+      <!-- images display end -->
 
-              </div>
-            </div>
-          </th>
-
-          <th>
-            <div class="col-md-4 col-sm-4">
-              <!-- event item -->
-              <div class="event-item">
-                <!-- image -->
-                <img class="img-responsive" src="img/foodAndDrinkEvent/tacos.jpg" alt="Events" />
-                <!-- heading -->
-                <h4><a href="https://seattle.eater.com/maps/seattle-best-taco-spots">15 of the Best Tacos in the Seattle
-                    Area</a></h4>
-
-              </div>
-            </div>
-          </th>
-
-
-          <th>
-            <div class="col-md-4 col-sm-4">
-              <!-- event item -->
-              <div class="event-item">
-                <!-- image -->
-                <img class="img-responsive" src="img/foodAndDrinkEvent/coffeeTea.jpg" alt="Events" />
-                <!-- heading -->
-                <h4><a href="https://seattle.eater.com/maps/best-new-coffee-shop-seattle-cafe">8 Exciting New Coffee and
-                    Tea Shops to Check Out in the Seattle Area</a></h4>
-
-              </div>
-            </div>
-          </th>
-
-        </tr>
-
-        <!--------------- row 3 -------------------->
-        <tr>
-          <th>
-            <div class="col-md-4 col-sm-4">
-              <!-- event item -->
-              <div class="event-item">
-                <!-- image -->
-                <img class="img-responsive" src="img/foodAndDrinkEvent/breakfastSandwiches.jpg" alt="Events" />
-                <!-- heading -->
-                <h4><a href="https://seattle.eater.com/maps/best-breakfast-sandwiches-in-seattle">Breakfast Sandwiches
-                    in Seattle That Are Worth Waking Up Early to Get</a></h4>
-
-              </div>
-            </div>
-          </th>
-
-
-          <th>
-            <div class="col-md-4 col-sm-4">
-              <!-- event item -->
-              <div class="event-item">
-                <!-- image -->
-                <img class="img-responsive" src="img/foodAndDrinkEvent/diveInBar.jpg" alt="Events" />
-                <!-- heading -->
-                <h4><a href="https://seattle.eater.com/maps/best-dive-bars-seattle">Some of Seattle’s Best Dive Bars Are
-                    Still Hanging Around</a></h4>
-
-              </div>
-            </div>
-          </th>
-
-          <th>
-            <div class="col-md-4 col-sm-4">
-              <!-- event item -->
-              <div class="event-item">
-                <!-- image -->
-                <img class="img-responsive" src="img/foodAndDrinkEvent/specialOccasion.jpg" alt="Events" />
-                <!-- heading -->
-                <h4><a
-                    href="https://seattle.eater.com/maps/seattle-restaurants-good-for-celebrations-birthdays-anniversaries">19
-                    Seattle Restaurants Ideal for Celebrating a Special Occasion</a></h4>
-
-              </div>
-            </div>
-          </th>
-
-        </tr>
-
-      </table>
-      <!------------ table ends ----------------->
 
     </div>
 
