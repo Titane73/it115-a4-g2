@@ -10,17 +10,6 @@ html {
   
 }
 
-
-
-h1, h2 {
-
-  color: #062C60;
-} 
-
-h3, h4, h5 {
-  color: #000;
-}
-
 body {
   margin: .25em auto 0 auto;
   width: 95%;
@@ -43,6 +32,15 @@ a:hover,a:active,a:focus {
 	outline: 0;
 }
 
+h1, h2 {
+
+  color: #062C60;
+} 
+
+h3, h4, h5 {
+  color: #000;
+}
+
 
 :focus {
 	outline:none;
@@ -55,6 +53,7 @@ a:hover,a:active,a:focus {
 p * {
   text-align: justify;
 }
+
 
 
  /* CSS for decorative borders */
@@ -70,6 +69,8 @@ p * {
 
 
 /* ********** Welcome ********* */
+
+
 
 .item1 { grid-area: header; }
 .item2 { grid-area: poem; }
