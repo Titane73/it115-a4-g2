@@ -338,7 +338,7 @@ p * {
   margin: 10px;
   border: 1px solid #001611 ;
   border-radius: 10px;
-  perspective: 1000px;  /* Remove this if you don't want the 3D effect */
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
   box-shadow: 2px 2px 1px rgb(6, 44, 96, 0.8);
 }
 
