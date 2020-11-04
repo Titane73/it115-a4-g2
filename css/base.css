@@ -60,7 +60,7 @@ p * {
 
  .bkgrd {
   border: 2px solid #005E49;
-  background-color: #78E151;
+  background-color: rgb(120, 225, 81, 0.6);
   padding: .5em;
   border-radius: 10px ;
   margin: .25em;
@@ -171,7 +171,7 @@ p * {
 .flex-container {
   border: 2px solid #000;
   border-radius: 10px;
-  background-color: #DCFCD0;
+  background-color: rgb(6, 44, 96, 0.4);
   display: flex;/* setting the display property to flex. */
   flex-wrap: wrap; /* this property allows the boxes to break into new lines */
   justify-content: space-evenly;
@@ -179,7 +179,6 @@ p * {
 
 }
 
-/* for pretty look - Purva*/
 .flex-container > div {
   background-color: #fff;
   border: 2px solid #062C60;
@@ -322,7 +321,7 @@ p * {
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
-  width: 225px;
+  width: 350px;
   height: 300px;
   margin: 10px;
   border: 1px solid #001611 ;
@@ -342,8 +341,8 @@ p * {
 }
 
 .flip-img {
-  width: 100%;
-  height: 100%;
+  width: 225px;
+  height: 300px;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -362,7 +361,7 @@ p * {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: rgba(0, 92, 72, 0.8);
+  background-color: rgb(10, 58, 124, 0.6);
   color: black;
   overflow: hidden;
   border-radius: 10px;
@@ -371,7 +370,7 @@ p * {
 /* Style the back side */
 .flip-card-back {
   font-size: .75em;
-  background-color: rgb(0, 94, 73, .8);
+  background-color: rgb(10, 58, 124, 0.6);
   color: #fff;
   border-radius: 10px;
   transform: rotateY(180deg);
